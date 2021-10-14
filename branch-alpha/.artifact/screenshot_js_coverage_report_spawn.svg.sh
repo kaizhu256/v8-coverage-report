@@ -13,7 +13,7 @@ printf '> #!/bin/sh
 > node --input-type=module -e '"'"'
 > 
 > /*jslint node*/
-> import v8_coverage_report from "v8_coverage_report";
+> import v8_coverage_report from "v8-coverage-report";
 > (async function () {
 > 
 > // Create V8 coverage report from program `npm run test` in javascript.
@@ -29,8 +29,7 @@ printf '> #!/bin/sh
 
 '
 #!/bin/sh
-mkdir -p node_modules && ln -s "$PWD" node_modules || true
-
+# npm install v8-coverage-report
 
 git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-js \
     --branch=v5.0.2 \
@@ -46,7 +45,7 @@ npm install
 node --input-type=module -e '
 
 /*jslint node*/
-import v8_coverage_report from "v8_coverage_report";
+import v8_coverage_report from "v8-coverage-report";
 (async function () {
 
 // Create V8 coverage report from program `npm run test` in javascript.

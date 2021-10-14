@@ -90,7 +90,7 @@ npm install
 node --input-type=module -e '
 
 /*jslint node*/
-import v8_coverage_report from "v8_coverage_report";
+import v8_coverage_report from "v8-coverage-report";
 (async function () {
 
 // Create V8 coverage report from program `npm run test` in javascript.

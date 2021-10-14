@@ -6,6 +6,9 @@ shCiArtifactUploadCustom() {(set -e
         cp -a .cache/* .
         # js-hack - */
     fi
+    # mock npm install
+    mkdir -p node_modules/v8-coverage-report
+    cp * node_modules/v8-coverage-report 2>/dev/null || true
     # screenshot quickstart
     node --input-type=module -e '
 import moduleFs from "fs";
@@ -21,15 +24,9 @@ import moduleChildProcess from "child_process";
     ]) {
         let script = script0;
         // modify script - npm install v8-coverage-report
-        script = script.replace(
-            (
-                /\nnpm install v8-coverage-report/g
-            ),
-            (
-                "\nmkdir -p node_modules"
-                + " && ln -s \"$PWD\" node_modules || true\n"
-            )
-        );
+        script = script.replace((
+            /^npm install v8-coverage-report$/gm
+        ), "# $&");
         // modify script - v8 coverage report
         script = script.replace((
             /\n\ncd node-sqlite3-\w*?\n/g
