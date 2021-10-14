@@ -1,0 +1,18 @@
+{
+    "bin": "./cli.mjs",
+    "counter": 1,
+    "description": "this zero-dependency package will create coverage-reports directly from raw v8-coverage-files",
+    "fileCount": 16,
+    "license": "UNLICENSE",
+    "main": "v8_coverage_report.mjs",
+    "name": "v8-coverage-report",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kaizhu256/v8-coverage-report.git"
+    },
+    "scripts": {
+        "test": "node jslint.mjs v8_coverage_report=.artifact/coverage node test.mjs",
+        "test2": "sh jslint_ci.sh shCiBase"
+    },
+    "version": "1000.1.1"
+}
