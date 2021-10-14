@@ -12,12 +12,12 @@ printf '> #!/bin/sh
 > node --input-type=module -e '"'"'
 > 
 > /*jslint node*/
-> import jslint from "../jslint.mjs";
+> import v8_coverage_report from "v8_coverage_report";
 > (async function () {
 > 
 > // Create V8 coverage report from program `npm run test` in javascript.
 > 
->     await jslint.v8CoverageReportCreate({
+>     await v8_coverage_report.v8CoverageReportCreate({
 >         coverageDir: "../.artifact/coverage_sqlite3_js/",
 >         processArgv: ["npm", "run", "test"]
 >     });
@@ -43,12 +43,12 @@ npm install
 node --input-type=module -e '
 
 /*jslint node*/
-import jslint from "../jslint.mjs";
+import v8_coverage_report from "../v8_coverage_report.mjs";
 (async function () {
 
 // Create V8 coverage report from program `npm run test` in javascript.
 
-    await jslint.v8CoverageReportCreate({
+    await v8_coverage_report.v8CoverageReportCreate({
         coverageDir: "../.artifact/coverage_sqlite3_js/",
         processArgv: ["npm", "run", "test"]
     });

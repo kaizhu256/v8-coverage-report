@@ -35,14 +35,11 @@
 
 # Quickstart Install
 ### To install, run npm install:
-```shell <!-- shRunWithScreenshotTxt .artifact/screenshot_sh_install_npm.svg -->
+```shell
 #!/bin/sh
 
 npm install v8-coverage-report
 ```
-- shell output
-
-![screenshot.svg](https://kaizhu256.github.io/v8-coverage-report/branch-alpha/.artifact/screenshot_sh_install_npm.svg)
 
 
 # Quickstart V8 Coverage Report
@@ -91,12 +88,12 @@ npm install
 node --input-type=module -e '
 
 /*jslint node*/
-import jslint from "../jslint.mjs";
+import v8_coverage_report from "v8_coverage_report";
 (async function () {
 
 // Create V8 coverage report from program `npm run test` in javascript.
 
-    await jslint.v8CoverageReportCreate({
+    await v8_coverage_report.v8CoverageReportCreate({
         coverageDir: "../.artifact/coverage_sqlite3_js/",
         processArgv: ["npm", "run", "test"]
     });

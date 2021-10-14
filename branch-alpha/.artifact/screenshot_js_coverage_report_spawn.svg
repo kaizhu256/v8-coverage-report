@@ -89,7 +89,7 @@
     textLength="768"
     x="10"
     y="318"
->&gt; import jslint from "../jslint.mjs";                                                            </tspan>
+>&gt; import v8_coverage_report from "v8_coverage_report";                                           </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -119,7 +119,7 @@
     textLength="768"
     x="10"
     y="428"
->&gt;     await jslint.v8CoverageReportCreate({                                                      </tspan>
+>&gt;     await v8_coverage_report.v8CoverageReportCreate({                                          </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -227,7 +227,7 @@
     textLength="768"
     x="10"
     y="824"
->audited 248 packages in 2.536s                                                                   </tspan>
+>audited 248 packages in 2.28s                                                                    </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -359,7 +359,7 @@
     textLength="768"
     x="10"
     y="1308"
->    ✓ should return the correct lastID (269ms)                                                   </tspan>
+>    ✓ should return the correct lastID (219ms)                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -419,13 +419,13 @@
     textLength="768"
     x="10"
     y="1528"
->    ✓ backup works if database is modified half-way through                                      </tspan>
+>    ✓ backup works if database is modified half-way through (44ms)                               </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1550"
->    ✓ can backup from temp to main                                                               </tspan>
+>    ✓ can backup from temp to main (45ms)                                                        </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -443,13 +443,13 @@
     textLength="768"
     x="10"
     y="1616"
->    ✓ fuss-free incremental backups work (171ms)                                                 </tspan>
+>    ✓ fuss-free incremental backups work (245ms)                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1638"
->    ✓ setting retryErrors to empty disables automatic finishing                                  </tspan>
+>    ✓ setting retryErrors to empty disables automatic finishing (55ms)                           </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -485,7 +485,7 @@
     textLength="768"
     x="10"
     y="1770"
->    ✓ should retrieve the blobs (38ms)                                                           </tspan>
+>    ✓ should retrieve the blobs (39ms)                                                           </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -629,7 +629,7 @@
     textLength="768"
     x="10"
     y="2298"
->    ✓ retrieve 100,000 rows with Statement#each (342ms)                                          </tspan>
+>    ✓ retrieve 100,000 rows with Statement#each (329ms)                                          </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -731,7 +731,7 @@
     textLength="768"
     x="10"
     y="2672"
->(node:2126) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
+>(node:2185) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"

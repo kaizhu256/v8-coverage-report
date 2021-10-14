@@ -20,10 +20,15 @@ import moduleChildProcess from "child_process";
         ignore, file, script0
     ]) {
         let script = script0;
-        // modify script - bin v8-coverage-report
+        // modify script - sh v8-coverage-report
         script = script.replace((
             /\nv8-coverage-report/
         ), "./cli.js");
+        // modify script - js v8-coverage-report
+        script = script.replace(
+            `import v8_coverage_report from "v8_coverage_report";`,
+            `import v8_coverage_report from "../v8_coverage_report.mjs";`,
+        );
         // modify script - v8 coverage report
         script = script.replace((
             /\n\ncd node-sqlite3-\w*?\n/g
@@ -74,19 +79,11 @@ import moduleChildProcess from "child_process";
 import moduleChildProcess from "child_process";
 (async function () {
     await Promise.all([
-        (
-            "https://"
-            + process.env.UPSTREAM_OWNER
-            + ".github.io/"
-            + process.env.UPSTREAM_REPO
-            + "/branch-beta/index.html"
-        ),
         ".artifact/apidoc.html",
         ".artifact/coverage_sqlite3_js/index.html",
         ".artifact/coverage_sqlite3_js/lib/sqlite3.js.html",
         ".artifact/coverage_sqlite3_sh/index.html",
-        ".artifact/coverage_sqlite3_sh/lib/sqlite3.js.html",
-        ".artifact/jslint_report_hello.html"
+        ".artifact/coverage_sqlite3_sh/lib/sqlite3.js.html"
     ].map(async function (url) {
         await new Promise(function (resolve) {
             moduleChildProcess.spawn(
