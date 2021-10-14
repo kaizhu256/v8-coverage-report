@@ -3,7 +3,7 @@
 # Todo
 - none
 
-# v1000.1.3
+# v2021.10.13
 - ci - test automated npm publish
 - doc - tidy up example-usages in README.md
 
