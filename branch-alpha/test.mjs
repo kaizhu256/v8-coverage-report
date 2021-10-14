@@ -90,7 +90,7 @@ function processExit1(exitCode) {
                     }
                 ],
                 package_name: "v8-coverage-report",
-                version: packageJson.version
+                version: "v" + packageJson.version
             })
         ],
         process_exit: processExit0

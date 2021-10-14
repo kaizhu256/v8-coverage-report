@@ -11,17 +11,6 @@ shCiArtifactUploadCustom() {(set -e
 import moduleFs from "fs";
 import moduleChildProcess from "child_process";
 (async function () {
-    let screenshotCurl;
-    screenshotCurl = await moduleFs.promises.stat("jslint.mjs");
-    screenshotCurl = String(`
-echo "\
-% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                     Dload  Upload   Total   Spent    Left  Speed
-100  250k  100  250k    0     0   250k      0  0:00:01 --:--:--  0:00:01  250k\
-"
-    `).trim().replace((
-        /250/g
-    ), Math.floor(screenshotCurl.size / 1024));
     // parallel-task - screenshot example-shell-commands in README.md
     await Promise.all(Array.from(String(
         await moduleFs.promises.readFile("README.md", "utf8")
@@ -31,11 +20,10 @@ echo "\
         ignore, file, script0
     ]) {
         let script = script0;
-        // modify script - jslint install
-        script = script.replace(
-            "curl -L https://www.jslint.com/jslint.mjs > jslint.mjs",
-            screenshotCurl
-        );
+        // modify script - bin v8-coverage-report
+        script = script.replace((
+            /\nv8-coverage-report/
+        ), "./cli.js");
         // modify script - v8 coverage report
         script = script.replace((
             /\n\ncd node-sqlite3-\w*?\n/g

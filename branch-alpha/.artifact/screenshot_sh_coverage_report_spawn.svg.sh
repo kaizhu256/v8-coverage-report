@@ -11,7 +11,7 @@ printf '> #!/bin/sh
 > 
 > # Create V8 coverage report from program `npm run test` in shell.
 > 
-> node ../jslint.mjs \\
+> v8-coverage-report \\
 >     v8_coverage_report=../.artifact/coverage_sqlite3_sh/ \\
 >     npm run test
 
@@ -31,8 +31,7 @@ git checkout 60a022c511a37788e652c271af23174566a80c30
 npm install
 
 # Create V8 coverage report from program `npm run test` in shell.
-
-node ../jslint.mjs \
+./cli.js \
     v8_coverage_report=../.artifact/coverage_sqlite3_sh/ \
     npm run test 2>&1 | head -n 100
 )
