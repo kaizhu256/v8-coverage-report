@@ -29,7 +29,7 @@ printf '> #!/bin/sh
 
 '
 #!/bin/sh
-mkdir -p node_modules && ln -s "$PWD" node_modules
+mkdir -p node_modules && ln -s "$PWD" node_modules || true
 
 
 git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-js \

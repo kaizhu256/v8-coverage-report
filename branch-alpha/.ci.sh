@@ -26,7 +26,8 @@ import moduleChildProcess from "child_process";
                 /\nnpm install v8-coverage-report/g
             ),
             (
-                "\nmkdir -p node_modules && ln -s \"$PWD\" node_modules\n"
+                "\nmkdir -p node_modules"
+                + " && ln -s \"$PWD\" node_modules || true\n"
             )
         );
         // modify script - v8 coverage report
