@@ -25,13 +25,13 @@ jobs:
           - x64
           # - x86
         node_version:
-          #!! - 12
+          - 12
           - 14
-          #!! - 16
+          - 16
         os:
-          #!! - macos-latest
+          - macos-latest
           - ubuntu-latest
-          #!! - windows-latest
+          - windows-latest
     name: job1 . node . v${{ matrix.node_version }} . ${{ matrix.architecture }} . ${{ matrix.os }}
     steps:
       # disable autocrlf in windows
