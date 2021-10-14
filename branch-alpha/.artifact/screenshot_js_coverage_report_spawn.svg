@@ -233,7 +233,7 @@
     textLength="768"
     x="10"
     y="846"
->audited 248 packages in 2.189s                                                                   </tspan>
+>audited 248 packages in 2.411s                                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -365,7 +365,7 @@
     textLength="768"
     x="10"
     y="1330"
->    ✓ should return the correct lastID (328ms)                                                   </tspan>
+>    ✓ should return the correct lastID (228ms)                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -449,7 +449,7 @@
     textLength="768"
     x="10"
     y="1638"
->    ✓ fuss-free incremental backups work (173ms)                                                 </tspan>
+>    ✓ fuss-free incremental backups work (182ms)                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -491,7 +491,7 @@
     textLength="768"
     x="10"
     y="1792"
->    ✓ should retrieve the blobs                                                                  </tspan>
+>    ✓ should retrieve the blobs (48ms)                                                           </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -635,7 +635,7 @@
     textLength="768"
     x="10"
     y="2320"
->    ✓ retrieve 100,000 rows with Statement#each (392ms)                                          </tspan>
+>    ✓ retrieve 100,000 rows with Statement#each (348ms)                                          </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -701,7 +701,7 @@
     textLength="768"
     x="10"
     y="2562"
->    ✓ should interrupt queries (77ms)                                                            </tspan>
+>    ✓ should interrupt queries                                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -737,7 +737,7 @@
     textLength="768"
     x="10"
     y="2694"
->(node:2098) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
+>(node:2066) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
