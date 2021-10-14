@@ -17,6 +17,13 @@ let {
     v8CoverageReportCreate
 } = jslint;
 
+function processExit0(exitCode) {
+    assertOrThrow(exitCode === 0, exitCode);
+}
+function processExit1(exitCode) {
+    assertOrThrow(exitCode === 1, exitCode);
+}
+
 (function testCaseFsXxx() {
 /*
  * this function will test fsXxx's handling-behavior
@@ -34,6 +41,171 @@ let {
             "aa"
         );
     }());
+}());
+
+(async function testCaseJslintCli() {
+/*
+ * this function will test jslint's cli handling-behavior
+ */
+    let packageJson = JSON.parse(
+        await moduleFs.promises.readFile("package.json")
+    );
+    // test null-case handling-behavior
+    jslint.jslint_cli({
+        mode_noop: true,
+        process_exit: processExit0
+    });
+    [
+        ".",            // test dir handling-behavior
+        "jslint.mjs",   // test file handling-behavior
+        undefined       // test file-undefined handling-behavior
+    ].forEach(function (file) {
+        jslint.jslint_cli({
+            console_error: noop,        // suppress error
+            file,
+            mode_cli: true,
+            processEnv: {
+                JSLINT_BETA: "1"
+            },
+            process_exit: processExit0
+        });
+    });
+    // test apidoc handling-behavior
+    jslint.jslint_cli({
+        mode_cli: true,
+        processArgv: [
+            "node",
+            "jslint.mjs",
+            "jslint_apidoc=.artifact/apidoc.html",
+            JSON.stringify({
+                example_list: [
+                    "README.md",
+                    "test.mjs",
+                    "jslint.mjs"
+                ],
+                github_repo: "https://github.com/kaizhu256/v8-coverage-repo",
+                module_list: [
+                    {
+                        pathname: "./v8_coverage_report.mjs"
+                    }
+                ],
+                package_name: "v8-coverage-report",
+                version: "v" + packageJson.version
+            })
+        ],
+        process_exit: processExit0
+    });
+    // test cjs handling-behavior
+    jslint.jslint_cli({
+        cjs_module: {
+            exports: {}
+        },
+        cjs_require: {},
+        process_exit: processExit0
+    });
+    // test file-error handling-behavior
+    jslint.jslint_cli({
+        // suppress error
+        console_error: noop,
+        file: "undefined",
+        mode_cli: true,
+        process_exit: processExit1
+    });
+    // test syntax-error handling-behavior
+    jslint.jslint_cli({
+        // suppress error
+        console_error: noop,
+        file: "syntax-error.js",
+        mode_cli: true,
+        option: {
+            trace: true
+        },
+        process_exit: processExit1,
+        source: "syntax error"
+    });
+    // test report handling-behavior
+    jslint.jslint_cli({
+        // suppress error
+        console_error: noop,
+        mode_cli: true,
+        processArgv: [
+            "node",
+            "jslint.mjs",
+            "jslint_report=.tmp/jslint_report.html",
+            "jslint.mjs"
+        ],
+        process_exit: processExit0
+    });
+    // test report-error handling-behavior
+    jslint.jslint_cli({
+        // suppress error
+        console_error: noop,
+        mode_cli: true,
+        processArgv: [
+            "node",
+            "jslint.mjs",
+            "jslint_report=.tmp/jslint_report.html",
+            "syntax-error.js"
+        ],
+        process_exit: processExit1,
+        source: "syntax error"
+    });
+    // test report-json handling-behavior
+    jslint.jslint_cli({
+        // suppress error
+        console_error: noop,
+        mode_cli: true,
+        processArgv: [
+            "node",
+            "jslint.mjs",
+            "jslint_report=.tmp/jslint_report.html",
+            "aa.json"
+        ],
+        process_exit: processExit0,
+        source: "[]"
+    });
+    // test report-misc handling-behavior
+    jslint.jslint_cli({
+        // suppress error
+        console_error: noop,
+        mode_cli: true,
+        processArgv: [
+            "node",
+            "jslint.mjs",
+            "jslint_report=.tmp/jslint_report.html",
+            "aa.js"
+        ],
+        process_exit: processExit1,
+        source: "(aa)=>aa; function aa([aa]){}"
+    });
+    // test report-json-error handling-behavior
+    jslint.jslint_cli({
+        // suppress error
+        console_error: noop,
+        mode_cli: true,
+        processArgv: [
+            "node",
+            "jslint.mjs",
+            "jslint_report=.tmp/jslint_report.html",
+            "aa.json"
+        ],
+        process_exit: processExit1,
+        source: "["
+    });
+    // test plugin-vim handling-behavior
+    jslint.jslint_cli({
+        // suppress error
+        console_error: noop,
+        mode_cli: true,
+        processArgv: [
+            "node",
+            "jslint.mjs",
+            "jslint_plugin_vim",
+            "syntax-error.js"
+        ],
+        process_exit: processExit1,
+        source: "syntax error"
+    });
 }());
 
 (function testCaseJslintCodeValidate() {

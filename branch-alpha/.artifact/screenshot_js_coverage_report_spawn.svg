@@ -227,7 +227,7 @@
     textLength="768"
     x="10"
     y="824"
->audited 248 packages in 1.611s                                                                   </tspan>
+>audited 248 packages in 2.102s                                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -359,7 +359,7 @@
     textLength="768"
     x="10"
     y="1308"
->    ✓ should return the correct lastID (102ms)                                                   </tspan>
+>    ✓ should return the correct lastID (182ms)                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -443,7 +443,7 @@
     textLength="768"
     x="10"
     y="1616"
->    ✓ fuss-free incremental backups work (172ms)                                                 </tspan>
+>    ✓ fuss-free incremental backups work (180ms)                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -629,7 +629,7 @@
     textLength="768"
     x="10"
     y="2298"
->    ✓ retrieve 100,000 rows with Statement#each (323ms)                                          </tspan>
+>    ✓ retrieve 100,000 rows with Statement#each (387ms)                                          </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -695,7 +695,7 @@
     textLength="768"
     x="10"
     y="2540"
->    ✓ should interrupt queries                                                                   </tspan>
+>    ✓ should interrupt queries (51ms)                                                            </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -731,7 +731,7 @@
     textLength="768"
     x="10"
     y="2672"
->(node:2166) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
+>(node:2061) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
