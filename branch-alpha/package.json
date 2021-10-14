@@ -5,7 +5,7 @@
     "fileCount": 16,
     "license": "UNLICENSE",
     "main": "v8_coverage_report.mjs",
-    "name": "v8-coverage-report",
+    "name": "@kaizhu256/v8-coverage-report",
     "repository": {
         "type": "git",
         "url": "https://github.com/kaizhu256/v8-coverage-report.git"

@@ -383,7 +383,7 @@
     textLength="768"
     x="10"
     y="1396"
->added 247 packages from 769 contributors and audited 248 packages in 11.756s                     </tspan>
+>added 247 packages from 769 contributors and audited 248 packages in 9.037s                      </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -509,7 +509,7 @@
     textLength="768"
     x="10"
     y="1858"
->    ✓ should return the correct lastID (197ms)                                                   </tspan>
+>    ✓ should return the correct lastID (127ms)                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -779,7 +779,7 @@
     textLength="768"
     x="10"
     y="2848"
->    ✓ retrieve 100,000 rows with Statement#each (430ms)                                          </tspan>
+>    ✓ retrieve 100,000 rows with Statement#each (304ms)                                          </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -881,7 +881,7 @@
     textLength="768"
     x="10"
     y="3222"
->(node:2209) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
+>(node:2494) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
