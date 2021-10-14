@@ -29,7 +29,7 @@ import moduleChildProcess from "child_process";
         ), "# $&");
         // modify script - npx
         script = script.replace((
-            /^npx v8-coverage-report$/m
+            /^npx v8-coverage-report/m
         ), "node ../cli.js");
         // modify script - cd node-sqlite3
         script = script.replace((
