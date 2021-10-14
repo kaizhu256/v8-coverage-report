@@ -28,9 +28,9 @@
 
 
 # API Doc
-- https://kaizhu256.github.io/v8-coverage-report/apidoc.html
+- https://kaizhu256.github.io/v8-coverage-report/branch-alpha/.artifact/apidoc.html
 
-[![screenshot](https://kaizhu256.github.io/v8-coverage-report/branch-alpha/.artifact/screenshot_browser__2f.artifact_2fapidoc.html.png)](https://kaizhu256.github.io/v8-coverage-report/apidoc.html)
+[![screenshot](https://kaizhu256.github.io/v8-coverage-report/branch-alpha/.artifact/screenshot_browser__2f.artifact_2fapidoc.html.png)](https://kaizhu256.github.io/v8-coverage-report/branch-alpha/.artifact/apidoc.html)
 
 
 # Quickstart Install
