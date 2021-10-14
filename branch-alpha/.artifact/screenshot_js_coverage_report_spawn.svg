@@ -203,37 +203,37 @@
     textLength="768"
     x="10"
     y="736"
->npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/\</tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="758"
->  request/issues/3142                                                                            </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="780"
->npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive \</tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="802"
->  security updates. Please upgrade asap.                                                         </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="824"
 >npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please upda\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
-    y="846"
+    y="758"
 >  te to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)              </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="780"
+>npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/\</tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="802"
+>  request/issues/3142                                                                            </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="824"
+>npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive \</tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="846"
+>  security updates. Please upgrade asap.                                                         </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -263,31 +263,31 @@
     textLength="768"
     x="10"
     y="956"
->npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use \</tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="978"
->  Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/\</tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="1000"
->  blog/math-random for details.                                                                  </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="1022"
 >npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
-    y="1044"
+    y="978"
 >   use the URLSearchParams API instead.                                                          </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="1000"
+>npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use \</tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="1022"
+>  Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/\</tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="1044"
+>  blog/math-random for details.                                                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -383,7 +383,7 @@
     textLength="768"
     x="10"
     y="1396"
->added 247 packages from 769 contributors and audited 248 packages in 11.577s                     </tspan>
+>added 247 packages from 769 contributors and audited 248 packages in 11.775s                     </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -509,7 +509,7 @@
     textLength="768"
     x="10"
     y="1858"
->    ✓ should return the correct lastID (118ms)                                                   </tspan>
+>    ✓ should return the correct lastID (144ms)                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -593,7 +593,7 @@
     textLength="768"
     x="10"
     y="2166"
->    ✓ fuss-free incremental backups work (190ms)                                                 </tspan>
+>    ✓ fuss-free incremental backups work (170ms)                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -635,7 +635,7 @@
     textLength="768"
     x="10"
     y="2320"
->    ✓ should retrieve the blobs (47ms)                                                           </tspan>
+>    ✓ should retrieve the blobs                                                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -785,7 +785,7 @@
     textLength="768"
     x="10"
     y="2870"
->    ✓ Statement#each with complete callback (39ms)                                               </tspan>
+>    ✓ Statement#each with complete callback                                                      </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -881,7 +881,7 @@
     textLength="768"
     x="10"
     y="3222"
->(node:2118) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
+>(node:2083) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
