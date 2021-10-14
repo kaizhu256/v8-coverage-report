@@ -22,15 +22,6 @@ import moduleChildProcess from "child_process";
         ignore, file, script0
     ]) {
         let script = script0;
-        // modify script - sh v8-coverage-report
-        script = script.replace((
-            /\nv8-coverage-report/
-        ), "../cli.mjs");
-        // modify script - js v8-coverage-report
-        script = script.replace(
-            `import v8_coverage_report from "v8_coverage_report";`,
-            `import v8_coverage_report from "../v8_coverage_report.mjs";`
-        );
         // modify script - v8 coverage report
         script = script.replace((
             /\n\ncd node-sqlite3-\w*?\n/g

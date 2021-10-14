@@ -61,7 +61,7 @@ npm install
 
 # Create V8 coverage report from program `npm run test` in shell.
 
-../node_modules/bin/v8-coverage-report \
+npx v8-coverage-report \
     v8_coverage_report=../.artifact/coverage_sqlite3_sh/ \
     npm run test
 ```
@@ -80,6 +80,7 @@ npm install
 ### To create V8 coverage report from Node.js / Npm program in javascript:
 ```shell <!-- shRunWithScreenshotTxt .artifact/screenshot_js_coverage_report_spawn.svg -->
 #!/bin/sh
+npm install v8-coverage-report
 
 git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-js \
     --branch=v5.0.2 \

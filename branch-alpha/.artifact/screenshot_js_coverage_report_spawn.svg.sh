@@ -1,5 +1,6 @@
 (set -e
 printf '> #!/bin/sh
+> npm install v8-coverage-report
 > 
 > git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-js \\
 >     --branch=v5.0.2 \\
@@ -28,6 +29,7 @@ printf '> #!/bin/sh
 
 '
 #!/bin/sh
+npm install v8-coverage-report
 
 git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-js \
     --branch=v5.0.2 \
@@ -43,7 +45,7 @@ npm install
 node --input-type=module -e '
 
 /*jslint node*/
-import v8_coverage_report from "../v8_coverage_report.mjs";
+import v8_coverage_report from "v8_coverage_report";
 (async function () {
 
 // Create V8 coverage report from program `npm run test` in javascript.
