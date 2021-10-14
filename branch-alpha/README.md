@@ -61,7 +61,7 @@ npm install
 
 # Create V8 coverage report from program `npm run test` in shell.
 
-v8-coverage-report \
+../node_modules/bin/v8-coverage-report \
     v8_coverage_report=../.artifact/coverage_sqlite3_sh/ \
     npm run test
 ```

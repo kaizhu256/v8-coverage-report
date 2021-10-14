@@ -1,5 +1,5 @@
-<svg height="250" width="800" xmlns="http://www.w3.org/2000/svg">
-<rect height="250" fill="#222" width="800"></rect>
+<svg height="272" width="800" xmlns="http://www.w3.org/2000/svg">
+<rect height="272" fill="#222" width="800"></rect>
 <text
     fill="#7f7"
     font-family="consolas, menlo, monospace"
@@ -41,30 +41,36 @@
     textLength="768"
     x="10"
     y="142"
->npm WARN undefined@1000.1.1 license should be a valid SPDX license expression                    </tspan>
+>npm notice created a lockfile as package-lock.json. You should commit this file.                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="164"
->                                                                                                 </tspan>
+>npm WARN undefined@1000.1.1 license should be a valid SPDX license expression                    </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="186"
->+ v8-coverage-report@1000.1.1                                                                    </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="208"
->added 1 package and audited 1 package in 1.166s                                                  </tspan>
+>+ v8-coverage-report@1000.1.1                                                                    </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="230"
+>added 1 package and audited 1 package in 0.524s                                                  </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="252"
 >found 0 vulnerabilities                                                                          </tspan>
 
 </text>
