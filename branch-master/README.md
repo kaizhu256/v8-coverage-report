@@ -2,7 +2,7 @@
 # this zero-dependency package will create coverage-reports directly from raw v8-coverage-files
 
 # Status
-| Branch | [master<br>(v1000.1.1)](https://github.com/kaizhu256/v8-coverage-report/tree/master) | [beta<br>(Web Demo)](https://github.com/kaizhu256/v8-coverage-report/tree/beta) | [alpha<br>(Development)](https://github.com/kaizhu256/v8-coverage-report/tree/alpha) |
+| Branch | [master<br>(v2021.10.13)](https://github.com/kaizhu256/v8-coverage-report/tree/master) | [beta<br>(Web Demo)](https://github.com/kaizhu256/v8-coverage-report/tree/beta) | [alpha<br>(Development)](https://github.com/kaizhu256/v8-coverage-report/tree/alpha) |
 |--:|:--:|:--:|:--:|
 | CI | [![ci](https://github.com/kaizhu256/v8-coverage-report/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/kaizhu256/v8-coverage-report/actions?query=branch%3Amaster) | [![ci](https://github.com/kaizhu256/v8-coverage-report/actions/workflows/ci.yml/badge.svg?branch=beta)](https://github.com/kaizhu256/v8-coverage-report/actions?query=branch%3Abeta) | [![ci](https://github.com/kaizhu256/v8-coverage-report/actions/workflows/ci.yml/badge.svg?branch=alpha)](https://github.com/kaizhu256/v8-coverage-report/actions?query=branch%3Aalpha) |
 | Coverage | [![coverage](https://kaizhu256.github.io/v8-coverage-report/branch-master/.artifact/coverage/coverage_badge.svg)](https://kaizhu256.github.io/v8-coverage-report/branch-master/.artifact/coverage/index.html) | [![coverage](https://kaizhu256.github.io/v8-coverage-report/branch-master/.artifact/coverage/coverage_badge.svg)](https://kaizhu256.github.io/v8-coverage-report/branch-master/.artifact/coverage/index.html) | [![coverage](https://kaizhu256.github.io/v8-coverage-report/branch-master/.artifact/coverage/coverage_badge.svg)](https://kaizhu256.github.io/v8-coverage-report/branch-master/.artifact/coverage/index.html) |
@@ -46,6 +46,7 @@ npm install v8-coverage-report
 ### To create V8 coverage report from Node.js / Npm program in shell:
 ```shell <!-- shRunWithScreenshotTxt .artifact/screenshot_sh_coverage_report_spawn.svg -->
 #!/bin/sh
+npm install v8-coverage-report
 
 git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-sh \
     --branch=v5.0.2 \
@@ -57,7 +58,7 @@ npm install
 
 # Create V8 coverage report from program `npm run test` in shell.
 
-v8-coverage-report \
+npx v8-coverage-report \
     v8_coverage_report=../.artifact/coverage_sqlite3_sh/ \
     npm run test
 ```
@@ -76,6 +77,7 @@ v8-coverage-report \
 ### To create V8 coverage report from Node.js / Npm program in javascript:
 ```shell <!-- shRunWithScreenshotTxt .artifact/screenshot_js_coverage_report_spawn.svg -->
 #!/bin/sh
+npm install v8-coverage-report
 
 git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-js \
     --branch=v5.0.2 \
@@ -88,7 +90,7 @@ npm install
 node --input-type=module -e '
 
 /*jslint node*/
-import v8_coverage_report from "v8_coverage_report";
+import v8_coverage_report from "v8-coverage-report";
 (async function () {
 
 // Create V8 coverage report from program `npm run test` in javascript.

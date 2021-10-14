@@ -570,14 +570,17 @@ shGitGc() {(set -e
 
 shGitInitBase() {(set -e
 # this function will git init && create basic git-template from jslint-org/base
+    local BRANCH
     git init
     git config core.autocrlf input
     git remote remove base 2>/dev/null || true
     git remote add base https://github.com/jslint-org/base
     git fetch base base
-    git checkout base/base 2>/dev/null
-    git branch -D alpha 2>/dev/null || true
-    git checkout -b alpha base/base
+    for BRANCH in base alpha
+    do
+        git branch -D "$BRANCH" 2>/dev/null || true
+        git checkout -b "$BRANCH" base/base
+    done
     sed -i.bak "s|owner/repo|${1:-owner/repo}|" .gitconfig
     rm .gitconfig.bak
     cp .gitconfig .git/config
