@@ -17,13 +17,6 @@ let {
     v8CoverageReportCreate
 } = jslint;
 
-function processExit0(exitCode) {
-    assertOrThrow(exitCode === 0, exitCode);
-}
-function processExit1(exitCode) {
-    assertOrThrow(exitCode === 1, exitCode);
-}
-
 (function testCaseFsXxx() {
 /*
  * this function will test fsXxx's handling-behavior

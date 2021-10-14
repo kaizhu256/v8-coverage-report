@@ -227,7 +227,7 @@
     textLength="768"
     x="10"
     y="824"
->audited 248 packages in 2.28s                                                                    </tspan>
+>audited 248 packages in 2.285s                                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -359,7 +359,7 @@
     textLength="768"
     x="10"
     y="1308"
->    ✓ should return the correct lastID (219ms)                                                   </tspan>
+>    ✓ should return the correct lastID (331ms)                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -389,7 +389,7 @@
     textLength="768"
     x="10"
     y="1418"
->    ✓ copies source fully with step(-1)                                                          </tspan>
+>    ✓ copies source fully with step(-1) (70ms)                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -419,13 +419,13 @@
     textLength="768"
     x="10"
     y="1528"
->    ✓ backup works if database is modified half-way through (44ms)                               </tspan>
+>    ✓ backup works if database is modified half-way through (241ms)                              </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1550"
->    ✓ can backup from temp to main (45ms)                                                        </tspan>
+>    ✓ can backup from temp to main (59ms)                                                        </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -443,13 +443,13 @@
     textLength="768"
     x="10"
     y="1616"
->    ✓ fuss-free incremental backups work (245ms)                                                 </tspan>
+>    ✓ fuss-free incremental backups work (450ms)                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1638"
->    ✓ setting retryErrors to empty disables automatic finishing (55ms)                           </tspan>
+>    ✓ setting retryErrors to empty disables automatic finishing                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -461,7 +461,7 @@
     textLength="768"
     x="10"
     y="1682"
->    ✓ default retryErrors will retry on a locked/busy db                                         </tspan>
+>    ✓ default retryErrors will retry on a locked/busy db (56ms)                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -485,7 +485,7 @@
     textLength="768"
     x="10"
     y="1770"
->    ✓ should retrieve the blobs (39ms)                                                           </tspan>
+>    ✓ should retrieve the blobs                                                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -629,7 +629,7 @@
     textLength="768"
     x="10"
     y="2298"
->    ✓ retrieve 100,000 rows with Statement#each (329ms)                                          </tspan>
+>    ✓ retrieve 100,000 rows with Statement#each (307ms)                                          </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -731,7 +731,7 @@
     textLength="768"
     x="10"
     y="2672"
->(node:2185) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
+>(node:2085) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"

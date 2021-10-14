@@ -23,11 +23,11 @@ import moduleChildProcess from "child_process";
         // modify script - sh v8-coverage-report
         script = script.replace((
             /\nv8-coverage-report/
-        ), "./cli.js");
+        ), "../cli.mjs");
         // modify script - js v8-coverage-report
         script = script.replace(
             `import v8_coverage_report from "v8_coverage_report";`,
-            `import v8_coverage_report from "../v8_coverage_report.mjs";`,
+            `import v8_coverage_report from "../v8_coverage_report.mjs";`
         );
         // modify script - v8 coverage report
         script = script.replace((
@@ -177,6 +177,7 @@ import moduleFs from "fs";
 }());
 ' "$@" # '
     fi
+    node jslint.mjs .
     # run test with coverage-report
     npm run test
 )}
