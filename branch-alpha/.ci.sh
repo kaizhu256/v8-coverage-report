@@ -6,6 +6,9 @@ shCiArtifactUploadCustom() {(set -e
         cp -a .cache/* .
         # js-hack - */
     fi
+    sed -i.bak -e \
+        's|"description": "v8-coverage-report"|"description": "undefined"|' \
+        package.json
     # screenshot quickstart
     node --input-type=module -e '
 import moduleFs from "fs";
@@ -72,6 +75,9 @@ import moduleChildProcess from "child_process";
     }));
 }());
 ' "$@" # '
+    sed -i.bak -e \
+        's|"description": "undefined"|"description": "v8-coverage-report"|' \
+        package.json
     # screenshot asset_image_logo
     # shImageLogoCreate &
     # screenshot html

@@ -1,5 +1,6 @@
 (set -e
 printf '> #!/bin/sh
+> npm install v8-coverage-report
 > 
 > git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-sh \\
 >     --branch=v5.0.2 \\
@@ -18,6 +19,7 @@ printf '> #!/bin/sh
 
 '
 #!/bin/sh
+npm install v8-coverage-report
 
 git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-sh \
     --branch=v5.0.2 \

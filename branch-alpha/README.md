@@ -49,6 +49,7 @@ npm install v8-coverage-report
 ### To create V8 coverage report from Node.js / Npm program in shell:
 ```shell <!-- shRunWithScreenshotTxt .artifact/screenshot_sh_coverage_report_spawn.svg -->
 #!/bin/sh
+npm install v8-coverage-report
 
 git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-sh \
     --branch=v5.0.2 \
