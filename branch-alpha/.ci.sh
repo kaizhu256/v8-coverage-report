@@ -14,7 +14,7 @@ shCiArtifactUploadCustom() {(set -e
 import moduleFs from "fs";
 import moduleChildProcess from "child_process";
 (async function () {
-    // parallel-task - screenshot example-shell-commands in README.md
+    // parallel-task - run-and-screenshot example-shell-commands in README.md
     await Promise.all(Array.from(String(
         await moduleFs.promises.readFile("README.md", "utf8")
     ).matchAll(
@@ -23,11 +23,15 @@ import moduleChildProcess from "child_process";
         ignore, file, script0
     ]) {
         let script = script0;
-        // modify script - npm install v8-coverage-report
+        // modify script - npm install
         script = script.replace((
             /^npm install v8-coverage-report$/gm
         ), "# $&");
-        // modify script - v8 coverage report
+        // modify script - npx
+        script = script.replace((
+            /^npx v8-coverage-report$/m
+        ), "node ../cli.js");
+        // modify script - cd node-sqlite3
         script = script.replace((
             /\n\ncd node-sqlite3-\w*?\n/g
         ), (
