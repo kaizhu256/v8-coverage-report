@@ -1,5 +1,5 @@
-<svg height="3022" width="800" xmlns="http://www.w3.org/2000/svg">
-<rect height="3022" fill="#222" width="800"></rect>
+<svg height="3572" width="800" xmlns="http://www.w3.org/2000/svg">
+<rect height="3572" fill="#222" width="800"></rect>
 <text
     fill="#7f7"
     font-family="consolas, menlo, monospace"
@@ -17,91 +17,91 @@
     textLength="768"
     x="10"
     y="54"
->&gt;                                                                                                </tspan>
+>&gt; npm install v8-coverage-report                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="76"
->&gt; git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-sh \                             </tspan>
+>&gt;                                                                                                </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="98"
->&gt;     --branch=v5.0.2 \                                                                          </tspan>
+>&gt; git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-sh \                             </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="120"
->&gt;     --depth=1 \                                                                                </tspan>
+>&gt;     --branch=v5.0.2 \                                                                          </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="142"
->&gt;     --single-branch                                                                            </tspan>
+>&gt;     --depth=1 \                                                                                </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="164"
->&gt;                                                                                                </tspan>
+>&gt;     --single-branch                                                                            </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="186"
->&gt; cd node-sqlite3-sh                                                                             </tspan>
+>&gt;                                                                                                </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="208"
->&gt; npm install                                                                                    </tspan>
+>&gt; cd node-sqlite3-sh                                                                             </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="230"
->&gt;                                                                                                </tspan>
+>&gt; npm install                                                                                    </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="252"
->&gt; # Create V8 coverage report from program `npm run test` in shell.                              </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="274"
 >&gt;                                                                                                </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
+    y="274"
+>&gt; # Create V8 coverage report from program `npm run test` in shell.                              </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
     y="296"
->&gt; v8-coverage-report \                                                                           </tspan>
+>&gt;                                                                                                </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="318"
->&gt;     v8_coverage_report=../.artifact/coverage_sqlite3_sh/ \                                     </tspan>
+>&gt; npx v8-coverage-report \                                                                       </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="340"
->&gt;     npm run test                                                                               </tspan>
+>&gt;     v8_coverage_report=../.artifact/coverage_sqlite3_sh/ \                                     </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="362"
->                                                                                                 </tspan>
+>&gt;     npm run test                                                                               </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -113,163 +113,163 @@
     textLength="768"
     x="10"
     y="406"
->HEAD is now at 60a022c napi: temporarily disable v6 (see issue #1444)                            </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="428"
->                                                                                                 </tspan>
+>HEAD is now at 60a022c napi: temporarily disable v6 (see issue #1444)                            </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="450"
->&gt; sqlite3@5.0.2 install /home/runner/work/v8-coverage-report/v8-coverage-report/node-sqlite3-sh  </tspan>
+>npm WARN deprecated node-pre-gyp@0.11.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped \</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="472"
->&gt; node-pre-gyp install --fallback-to-build                                                       </tspan>
+>  node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="494"
->                                                                                                 </tspan>
+>   the future                                                                                    </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="516"
->node-pre-gyp WARN Using request for node-pre-gyp https download                                  </tspan>
+>npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please upda\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="538"
->[sqlite3] Success: "/home/runner/work/v8-coverage-report/v8-coverage-report/node-sqlite3-sh/lib/\</tspan>
+>  te to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)              </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="560"
->  binding/napi-v3-linux-x64/node_sqlite3.node" already installed                                 </tspan>
+>npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="582"
->Pass --update-binary to reinstall or --build-from-source to recompile                            </tspan>
+>  request/issues/3142                                                                            </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="604"
->audited 248 packages in 2.04s                                                                    </tspan>
+>npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive \</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="626"
->                                                                                                 </tspan>
+>  security updates. Please upgrade asap.                                                         </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="648"
->4 packages are looking for funding                                                               </tspan>
+>npm WARN deprecated har-validator@5.1.5: this library is no longer supported                     </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="670"
->  run `npm fund` for details                                                                     </tspan>
+>npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use \</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="692"
->                                                                                                 </tspan>
+>  Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="714"
->found 7 vulnerabilities (2 moderate, 5 high)                                                     </tspan>
+>  blog/math-random for details.                                                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="736"
->  run `npm audit fix` to fix them, or `npm audit` for details                                    </tspan>
+>npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use \</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="758"
->wrote file /home/runner/work/v8-coverage-report/v8-coverage-report/.artifact/coverage_sqlite3_sh\</tspan>
+>  Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="780"
->  //touch.txt                                                                                    </tspan>
+>  blog/math-random for details.                                                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="802"
->                                                                                                 </tspan>
+>npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="824"
->&gt; sqlite3@5.0.2 pretest /home/runner/work/v8-coverage-report/v8-coverage-report/node-sqlite3-sh  </tspan>
+>   use the URLSearchParams API instead.                                                          </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="846"
->&gt; node test/support/createdb.js                                                                  </tspan>
+>npm WARN deprecated circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its suc\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="868"
->                                                                                                 </tspan>
+>  cessor.                                                                                        </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="890"
->okay: database already created (/home/runner/work/v8-coverage-report/v8-coverage-report/node-sql\</tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="912"
->  ite3-sh/test/support/big.db)                                                                   </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="934"
 >                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
+    y="912"
+>&gt; aws-sdk@2.1007.0 postinstall /home/runner/work/v8-coverage-report/v8-coverage-report/node-sqli\</tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="934"
+>  te3-sh/node_modules/aws-sdk                                                                    </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
     y="956"
->&gt; sqlite3@5.0.2 test /home/runner/work/v8-coverage-report/v8-coverage-report/node-sqlite3-sh     </tspan>
+>&gt; node scripts/check-node-version.js                                                             </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="978"
->&gt; mocha -R spec --timeout 480000                                                                 </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -281,127 +281,127 @@
     textLength="768"
     x="10"
     y="1022"
->                                                                                                 </tspan>
+>&gt; sqlite3@5.0.2 install /home/runner/work/v8-coverage-report/v8-coverage-report/node-sqlite3-sh  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1044"
->                                                                                                 </tspan>
+>&gt; node-pre-gyp install --fallback-to-build                                                       </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1066"
->  query properties                                                                               </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="1088"
->    ✓ should return the correct lastID (147ms)                                                   </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="1110"
->    ✓ should return the correct changes count                                                    </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="1132"
 >                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
+    y="1088"
+>node-pre-gyp WARN Using request for node-pre-gyp https download                                  </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="1110"
+>[sqlite3] Success: "/home/runner/work/v8-coverage-report/v8-coverage-report/node-sqlite3-sh/lib/\</tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="1132"
+>  binding/napi-v3-linux-x64/node_sqlite3.node" is installed via remote                           </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
     y="1154"
->  backup                                                                                         </tspan>
+>npm notice created a lockfile as package-lock.json. You should commit this file.                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1176"
->    ✓ output db created once step is called                                                      </tspan>
+>added 247 packages from 769 contributors and audited 248 packages in 14.4s                       </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1198"
->    ✓ copies source fully with step(-1)                                                          </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1220"
->    ✓ backup db not created if finished immediately                                              </tspan>
+>4 packages are looking for funding                                                               </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1242"
->    ✓ error closing db if backup not finished                                                    </tspan>
+>  run `npm fund` for details                                                                     </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1264"
->    ✓ using the backup after finished is an error                                                </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1286"
->    ✓ remaining/pageCount are available after call to step                                       </tspan>
+>found 7 vulnerabilities (2 moderate, 5 high)                                                     </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1308"
->    ✓ backup works if database is modified half-way through                                      </tspan>
+>  run `npm audit fix` to fix them, or `npm audit` for details                                    </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1330"
->    ✓ can backup from temp to main                                                               </tspan>
+>wrote file /home/runner/work/v8-coverage-report/v8-coverage-report/.artifact/coverage_sqlite3_sh\</tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1352"
->    ✓ can backup from main to temp                                                               </tspan>
+>  //touch.txt                                                                                    </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1374"
->    ✓ cannot backup to a locked db                                                               </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1396"
->    ✓ fuss-free incremental backups work (190ms)                                                 </tspan>
+>&gt; sqlite3@5.0.2 pretest /home/runner/work/v8-coverage-report/v8-coverage-report/node-sqlite3-sh  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1418"
->    ✓ setting retryErrors to empty disables automatic finishing                                  </tspan>
+>&gt; node test/support/createdb.js                                                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1440"
->    ✓ setting retryErrors enables automatic finishing                                            </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1462"
->    ✓ default retryErrors will retry on a locked/busy db                                         </tspan>
+>Creating test database... This may take several minutes.                                         </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -413,19 +413,19 @@
     textLength="768"
     x="10"
     y="1506"
->  blob                                                                                           </tspan>
+>&gt; sqlite3@5.0.2 test /home/runner/work/v8-coverage-report/v8-coverage-report/node-sqlite3-sh     </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1528"
->    ✓ should insert blobs                                                                        </tspan>
+>&gt; mocha -R spec --timeout 480000                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1550"
->    ✓ should retrieve the blobs                                                                  </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -437,121 +437,121 @@
     textLength="768"
     x="10"
     y="1594"
->  cache                                                                                          </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1616"
->    ✓ should cache Database objects while opening                                                </tspan>
+>  query properties                                                                               </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1638"
->    ✓ should cache Database objects after they are open                                          </tspan>
+>    ✓ should return the correct lastID (404ms)                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1660"
->                                                                                                 </tspan>
+>    ✓ should return the correct changes count                                                    </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1682"
->  constants                                                                                      </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="1704"
->    ✓ should have the right OPEN_* flags                                                         </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="1726"
->    ✓ should have the right error flags                                                          </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="1748"
 >                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
+    y="1704"
+>  backup                                                                                         </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="1726"
+>    ✓ output db created once step is called                                                      </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="1748"
+>    ✓ copies source fully with step(-1)                                                          </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
     y="1770"
->  error handling                                                                                 </tspan>
+>    ✓ backup db not created if finished immediately                                              </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1792"
->    ✓ throw when calling Database() without new                                                  </tspan>
+>    ✓ error closing db if backup not finished                                                    </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1814"
->    ✓ should error when calling Database#get on a missing table                                  </tspan>
+>    ✓ using the backup after finished is an error                                                </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1836"
->    ✓ Database#all prepare fail                                                                  </tspan>
+>    ✓ remaining/pageCount are available after call to step                                       </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1858"
->    ✓ Database#run prepare fail                                                                  </tspan>
+>    ✓ backup works if database is modified half-way through                                      </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1880"
->    ✓ Database#each prepare fail                                                                 </tspan>
+>    ✓ can backup from temp to main                                                               </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1902"
->    ✓ Database#each prepare fail without completion handler                                      </tspan>
+>    ✓ can backup from main to temp                                                               </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1924"
->    ✓ Database#get prepare fail with param binding                                               </tspan>
+>    ✓ cannot backup to a locked db                                                               </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1946"
->    ✓ Database#all prepare fail with param binding                                               </tspan>
+>    ✓ fuss-free incremental backups work (172ms)                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1968"
->    ✓ Database#run prepare fail with param binding                                               </tspan>
+>    ✓ setting retryErrors to empty disables automatic finishing                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="1990"
->    ✓ Database#each prepare fail with param binding                                              </tspan>
+>    ✓ setting retryErrors enables automatic finishing                                            </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2012"
->    ✓ Database#each prepare fail with param binding without completion handler                   </tspan>
+>    ✓ default retryErrors will retry on a locked/busy db                                         </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -563,19 +563,19 @@
     textLength="768"
     x="10"
     y="2056"
->  each                                                                                           </tspan>
+>  blob                                                                                           </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2078"
->    ✓ retrieve 100,000 rows with Statement#each (296ms)                                          </tspan>
+>    ✓ should insert blobs                                                                        </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2100"
->    ✓ Statement#each with complete callback                                                      </tspan>
+>    ✓ should retrieve the blobs                                                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -587,19 +587,19 @@
     textLength="768"
     x="10"
     y="2144"
->  exec                                                                                           </tspan>
+>  cache                                                                                          </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2166"
->    ✓ Database#exec                                                                              </tspan>
+>    ✓ should cache Database objects while opening                                                </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2188"
->    ✓ retrieve database structure                                                                </tspan>
+>    ✓ should cache Database objects after they are open                                          </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -611,163 +611,163 @@
     textLength="768"
     x="10"
     y="2232"
->  fts                                                                                            </tspan>
+>  constants                                                                                      </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2254"
->    ✓ should create a new fts4 table                                                             </tspan>
+>    ✓ should have the right OPEN_* flags                                                         </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2276"
->                                                                                                 </tspan>
+>    ✓ should have the right error flags                                                          </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2298"
->  interrupt                                                                                      </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2320"
->    ✓ should interrupt queries                                                                   </tspan>
+>  error handling                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2342"
->    ✓ should throw if interrupt is called before open                                            </tspan>
+>    ✓ throw when calling Database() without new                                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2364"
->    ✓ should throw if interrupt is called after close                                            </tspan>
+>    ✓ should error when calling Database#get on a missing table                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2386"
->    ✓ should throw if interrupt is called during close                                           </tspan>
+>    ✓ Database#all prepare fail                                                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2408"
->                                                                                                 </tspan>
+>    ✓ Database#run prepare fail                                                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2430"
->  buffer                                                                                         </tspan>
+>    ✓ Database#each prepare fail                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2452"
->(node:2240) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
+>    ✓ Database#each prepare fail without completion handler                                      </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2474"
->  ssues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.  </tspan>
+>    ✓ Database#get prepare fail with param binding                                               </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2496"
->(Use `node --trace-deprecation ...` to show where the warning was created)                       </tspan>
+>    ✓ Database#all prepare fail with param binding                                               </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2518"
->    ✓ should insert blobs                                                                        </tspan>
+>    ✓ Database#run prepare fail with param binding                                               </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2540"
->                                                                                                 </tspan>
+>    ✓ Database#each prepare fail with param binding                                              </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2562"
->  json                                                                                           </tspan>
+>    ✓ Database#each prepare fail with param binding without completion handler                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2584"
->    ✓ should select JSON                                                                         </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2606"
->                                                                                                 </tspan>
+>  each                                                                                           </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2628"
->  map                                                                                            </tspan>
+>    ✓ retrieve 100,000 rows with Statement#each (297ms)                                          </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2650"
->    ✓ test Database#map() with two columns                                                       </tspan>
+>    ✓ Statement#each with complete callback                                                      </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2672"
->    ✓ test Database#map() with three columns                                                     </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="2694"
 >                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
+    y="2694"
+>  exec                                                                                           </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
     y="2716"
->  named columns                                                                                  </tspan>
+>    ✓ Database#exec                                                                              </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2738"
->    ✓ should create the table                                                                    </tspan>
+>    ✓ retrieve database structure                                                                </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2760"
->    ✓ should insert a value                                                                      </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2782"
->    ✓ should retrieve the values                                                                 </tspan>
+>  fts                                                                                            </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2804"
->    ✓ should be able to retrieve rowid of last inserted value                                    </tspan>
+>    ✓ should create a new fts4 table                                                             </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -779,48 +779,198 @@
     textLength="768"
     x="10"
     y="2848"
->  named parameters                                                                               </tspan>
+>  interrupt                                                                                      </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2870"
->    ✓ should create the table                                                                    </tspan>
+>    ✓ should interrupt queries                                                                   </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2892"
->    ✓ should insert a value with $ placeholders                                                  </tspan>
+>    ✓ should throw if interrupt is called before open                                            </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2914"
->    ✓ should insert a value with : placeholders                                                  </tspan>
+>    ✓ should throw if interrupt is called after close                                            </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2936"
->    ✓ should insert a value with @ placeholders                                                  </tspan>
+>    ✓ should throw if interrupt is called during close                                           </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2958"
->    ✓ should insert a value with @ placeholders using an array                                   </tspan>
+>                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="2980"
->    ✓ should insert a value with indexed placeholders                                            </tspan>
+>  buffer                                                                                         </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="3002"
+>(node:2468) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability i\</tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3024"
+>  ssues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.  </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3046"
+>(Use `node --trace-deprecation ...` to show where the warning was created)                       </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3068"
+>    ✓ should insert blobs                                                                        </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3090"
+>                                                                                                 </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3112"
+>  json                                                                                           </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3134"
+>    ✓ should select JSON                                                                         </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3156"
+>                                                                                                 </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3178"
+>  map                                                                                            </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3200"
+>    ✓ test Database#map() with two columns                                                       </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3222"
+>    ✓ test Database#map() with three columns                                                     </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3244"
+>                                                                                                 </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3266"
+>  named columns                                                                                  </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3288"
+>    ✓ should create the table                                                                    </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3310"
+>    ✓ should insert a value                                                                      </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3332"
+>    ✓ should retrieve the values                                                                 </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3354"
+>    ✓ should be able to retrieve rowid of last inserted value                                    </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3376"
+>                                                                                                 </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3398"
+>  named parameters                                                                               </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3420"
+>    ✓ should create the table                                                                    </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3442"
+>    ✓ should insert a value with $ placeholders                                                  </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3464"
+>    ✓ should insert a value with : placeholders                                                  </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3486"
+>    ✓ should insert a value with @ placeholders                                                  </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3508"
+>    ✓ should insert a value with @ placeholders using an array                                   </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3530"
+>    ✓ should insert a value with indexed placeholders                                            </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="3552"
 >    ✓ should insert a value with autoindexed placeholders                                        </tspan>
 
 </text>
