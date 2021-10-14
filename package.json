@@ -14,5 +14,5 @@
         "test": "node jslint.mjs v8_coverage_report=.artifact/coverage node test.mjs",
         "test2": "sh jslint_ci.sh shCiBase"
     },
-    "version": "1000.1.1"
+    "version": "1000.1.2"
 }

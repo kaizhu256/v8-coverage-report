@@ -6,12 +6,15 @@ shCiArtifactUploadCustom() {(set -e
         cp -a .cache/* .
         # js-hack - */
     fi
+    # mock npm install
+    mkdir -p node_modules/v8-coverage-report
+    cp * node_modules/v8-coverage-report 2>/dev/null || true
     # screenshot quickstart
     node --input-type=module -e '
 import moduleFs from "fs";
 import moduleChildProcess from "child_process";
 (async function () {
-    // parallel-task - screenshot example-shell-commands in README.md
+    // parallel-task - run-and-screenshot example-shell-commands in README.md
     await Promise.all(Array.from(String(
         await moduleFs.promises.readFile("README.md", "utf8")
     ).matchAll(
@@ -20,16 +23,15 @@ import moduleChildProcess from "child_process";
         ignore, file, script0
     ]) {
         let script = script0;
-        // modify script - sh v8-coverage-report
+        // modify script - npm install
         script = script.replace((
-            /\nv8-coverage-report/
-        ), "../cli.mjs");
-        // modify script - js v8-coverage-report
-        script = script.replace(
-            `import v8_coverage_report from "v8_coverage_report";`,
-            `import v8_coverage_report from "../v8_coverage_report.mjs";`
-        );
-        // modify script - v8 coverage report
+            /^npm install v8-coverage-report$/gm
+        ), "# $&");
+        // modify script - npx
+        script = script.replace((
+            /^npx v8-coverage-report/m
+        ), "node ../cli.mjs");
+        // modify script - cd node-sqlite3
         script = script.replace((
             /\n\ncd node-sqlite3-\w*?\n/g
         ), (
