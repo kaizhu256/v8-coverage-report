@@ -179,7 +179,7 @@
     textLength="768"
     x="10"
     y="648"
->ln: failed to create symbolic link 'node_modules/v8-coverage-report/.': File exists              </tspan>
+>ln: failed to create symbolic link 'node_modules/v8-coverage-report': File exists                </tspan>
 
 </text>
 </svg>
