@@ -1,5 +1,5 @@
-<svg height="338" width="800" xmlns="http://www.w3.org/2000/svg">
-<rect height="338" fill="#222" width="800"></rect>
+<svg height="382" width="800" xmlns="http://www.w3.org/2000/svg">
+<rect height="382" fill="#222" width="800"></rect>
 <text
     fill="#7f7"
     font-family="consolas, menlo, monospace"
@@ -11,7 +11,7 @@
     textLength="768"
     x="10"
     y="32"
-> 0.  755  2021-10-14T03:24:41Z  752 KB  .                                                        </tspan>
+> 0.  755  2021-10-14T03:39:12Z  752 KB  .                                                        </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
@@ -65,31 +65,43 @@
     textLength="768"
     x="10"
     y="230"
-> 9.  644  2021-10-14T02:53:51Z  313 KB  jslint.mjs                                               </tspan>
+> 9.  644  2021-10-14T03:39:12Z    1 KB  cli.mjs                                                  </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="252"
->10.  644  2021-10-14T02:53:51Z   75 KB  jslint_ci.sh                                             </tspan>
+>10.  644  2021-10-14T02:53:51Z  313 KB  jslint.mjs                                               </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="274"
->11.  644  2021-10-14T03:06:44Z    1 KB  package.json                                             </tspan>
+>11.  644  2021-10-14T02:53:51Z   75 KB  jslint_ci.sh                                             </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="296"
->12.  644  2021-10-14T02:53:51Z   29 KB  test.mjs                                                 </tspan>
+>12.  644  2021-10-14T03:38:01Z    1 KB  package.json                                             </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="318"
->13.  644  2021-10-14T02:53:51Z  319 KB  test_coverage_merge_data.json                            </tspan>
+>13.  644  2021-10-14T03:38:01Z   29 KB  test.mjs                                                 </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="340"
+>14.  644  2021-10-14T02:53:51Z  319 KB  test_coverage_merge_data.json                            </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="362"
+>15.  644  2021-10-14T03:38:01Z    1 KB  v8_coverage_report.mjs                                   </tspan>
 
 </text>
 </svg>

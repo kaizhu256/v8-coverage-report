@@ -43,10 +43,13 @@ function processExit1(exitCode) {
     }());
 }());
 
-(function testCaseJslintCli() {
+(async function testCaseJslintCli() {
 /*
  * this function will test jslint's cli handling-behavior
  */
+    let packageJson = JSON.parse(
+        await moduleFs.promises.readFile("package.json")
+    );
     // test null-case handling-behavior
     jslint.jslint_cli({
         mode_noop: true,
@@ -80,14 +83,14 @@ function processExit1(exitCode) {
                     "test.mjs",
                     "jslint.mjs"
                 ],
-                github_repo: "https://github.com/jslint-org/jslint",
+                github_repo: "https://github.com/kaizhu256/v8-coverage-repo",
                 module_list: [
                     {
-                        pathname: "./jslint.mjs"
+                        pathname: "./v8_coverage_report.mjs"
                     }
                 ],
-                package_name: "JSLint",
-                version: jslint.jslint_edition
+                package_name: "v8-coverage-report",
+                version: packageJson.version
             })
         ],
         process_exit: processExit0

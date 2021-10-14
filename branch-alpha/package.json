@@ -1,8 +1,10 @@
 {
+    "bin": "./cli.mjs",
     "counter": 1,
     "description": "this zero-dependency package will create coverage-reports directly from raw v8-coverage-files",
     "fileCount": 26,
     "license": "UNLICENSE",
+    "main": "v8_coverage_report.mjs",
     "name": "v8-coverage-report",
     "repository": {
         "type": "git",

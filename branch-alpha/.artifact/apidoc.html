@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="JSLint API Doc">
-<title>JSLint apidoc</title>
+<meta name="description" content="v8-coverage-report API Doc">
+<title>v8-coverage-report apidoc</title>
 <style>
 /* jslint utility2:true */
 /*csslint*/
@@ -67,7 +67,7 @@ body {
 </head>
 <body>
 <div class="apidocDiv">
-<h1>API Doc for <a href="https://github.com/jslint-org/jslint">JSLint (v2021.10.1-beta)</a></h1>
+<h1>API Doc for <a href="https://github.com/kaizhu256/v8-coverage-repo">v8-coverage-report (2020.10.13)</a></h1>
 <div class="apidocSectionDiv">
     <a href="#apidocTableOfContents1" id="apidocTableOfContents1">
         <h1>Table of Contents</h1>
@@ -75,60 +75,60 @@ body {
     <ul>
 
         <li>
-            <a class="apidocModuleA" href="#apidoc.module.%22.%2Fjslint.mjs%22">Module "./jslint.mjs"</a>
+            <a class="apidocModuleA" href="#apidoc.module.%22.%2Fv8_coverage_report.mjs%22">Module "./v8_coverage_report.mjs"</a>
             <ul>
             <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.assertErrorThrownAsync">1.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.assertErrorThrownAsync">1.
 function assertErrorThrownAsync<span class="apidocSignatureSpan">(asyncFunc, regexp)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.assertJsonEqual">2.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.assertJsonEqual">2.
 function assertJsonEqual<span class="apidocSignatureSpan">(aa, bb)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.assertOrThrow">3.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.assertOrThrow">3.
 function assertOrThrow<span class="apidocSignatureSpan">(condition, message)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.debugInline">4.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.debugInline">4.
 function debugInline<span class="apidocSignatureSpan">(...argv)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.fsRmRecursive">5.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.fsRmRecursive">5.
 function fsRmRecursive<span class="apidocSignatureSpan">(path, option_dict)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.fsWriteFileWithParents">6.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.fsWriteFileWithParents">6.
 function fsWriteFileWithParents<span class="apidocSignatureSpan">(pathname, data)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.htmlEscape">7.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.htmlEscape">7.
 function htmlEscape<span class="apidocSignatureSpan">(str)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint">8.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint">8.
 function jslint<span class="apidocSignatureSpan">(
     source = "",
     option_dict = empty(),
@@ -139,7 +139,7 @@ function jslint<span class="apidocSignatureSpan">(
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_apidoc">9.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_apidoc">9.
 function jslint_apidoc<span class="apidocSignatureSpan">({
     example_list,
     github_repo,
@@ -153,14 +153,14 @@ function jslint_apidoc<span class="apidocSignatureSpan">({
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_assert">10.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_assert">10.
 function jslint_assert<span class="apidocSignatureSpan">(condition, message)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_cli">11.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_cli">11.
 function jslint_cli<span class="apidocSignatureSpan">({
     cjs_module,
     cjs_require,
@@ -180,42 +180,42 @@ function jslint_cli<span class="apidocSignatureSpan">({
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase1_split">12.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase1_split">12.
 function jslint_phase1_split<span class="apidocSignatureSpan">()</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase2_lex">13.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase2_lex">13.
 function jslint_phase2_lex<span class="apidocSignatureSpan">(state)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase3_parse">14.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase3_parse">14.
 function jslint_phase3_parse<span class="apidocSignatureSpan">(state)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase4_walk">15.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase4_walk">15.
 function jslint_phase4_walk<span class="apidocSignatureSpan">(state)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase5_whitage">16.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase5_whitage">16.
 function jslint_phase5_whitage<span class="apidocSignatureSpan">(state)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_report">17.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_report">17.
 function jslint_report<span class="apidocSignatureSpan">({
     exports,
     froms,
@@ -232,49 +232,49 @@ function jslint_report<span class="apidocSignatureSpan">({
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jstestDescribe">18.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jstestDescribe">18.
 function jstestDescribe<span class="apidocSignatureSpan">(description, testFunction)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jstestIt">19.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jstestIt">19.
 function jstestIt<span class="apidocSignatureSpan">(description, testFunction, mode)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jstestOnExit">20.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jstestOnExit">20.
 function jstestOnExit<span class="apidocSignatureSpan">(exitCode, processExit, countFailed)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.moduleFsInit">21.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.moduleFsInit">21.
 function moduleFsInit<span class="apidocSignatureSpan">()</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.noop">22.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.noop">22.
 function noop<span class="apidocSignatureSpan">(val)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.v8CoverageListMerge">23.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.v8CoverageListMerge">23.
 function v8CoverageListMerge<span class="apidocSignatureSpan">(processCovs)</span>
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.v8CoverageReportCreate">24.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.v8CoverageReportCreate">24.
 function v8CoverageReportCreate<span class="apidocSignatureSpan">({
     consoleError,
     coverageDir,
@@ -285,14 +285,14 @@ function v8CoverageReportCreate<span class="apidocSignatureSpan">({
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_charset_ascii">25.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_charset_ascii">25.
 string jslint_charset_ascii
 </a>
 
 </li>
 <li>
 
-<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_edition">26.
+<a class="apidocElementLiA" href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_edition">26.
 string jslint_edition
 </a>
 
@@ -305,12 +305,12 @@ string jslint_edition
 </div>
 
 <div class="apidocSectionDiv">
-    <h1><a href="#apidoc.module.%22.%2Fjslint.mjs%22" id="apidoc.module.%22.%2Fjslint.mjs%22">Module "./jslint.mjs"</a></h1>
+    <h1><a href="#apidoc.module.%22.%2Fv8_coverage_report.mjs%22" id="apidoc.module.%22.%2Fv8_coverage_report.mjs%22">Module "./v8_coverage_report.mjs"</a></h1>
     <ul>
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.assertErrorThrownAsync" id="apidoc.elem.%22.%2Fjslint.mjs%22.assertErrorThrownAsync">1.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.assertErrorThrownAsync" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.assertErrorThrownAsync">1.
     function assertErrorThrownAsync<span class="apidocSignatureSpan">(asyncFunc, regexp)</span>
     </a>
     </h2>
@@ -351,7 +351,7 @@ string jslint_edition
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.assertJsonEqual" id="apidoc.elem.%22.%2Fjslint.mjs%22.assertJsonEqual">2.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.assertJsonEqual" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.assertJsonEqual">2.
     function assertJsonEqual<span class="apidocSignatureSpan">(aa, bb)</span>
     </a>
     </h2>
@@ -388,7 +388,7 @@ jstestDescribe((
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.assertOrThrow" id="apidoc.elem.%22.%2Fjslint.mjs%22.assertOrThrow">3.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.assertOrThrow" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.assertOrThrow">3.
     function assertOrThrow<span class="apidocSignatureSpan">(condition, message)</span>
     </a>
     </h2>
@@ -425,7 +425,7 @@ jstestDescribe((
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.debugInline" id="apidoc.elem.%22.%2Fjslint.mjs%22.debugInline">4.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.debugInline" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.debugInline">4.
     function debugInline<span class="apidocSignatureSpan">(...argv)</span>
     </a>
     </h2>
@@ -453,7 +453,7 @@ jstestDescribe((
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.fsRmRecursive" id="apidoc.elem.%22.%2Fjslint.mjs%22.fsRmRecursive">5.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.fsRmRecursive" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.fsRmRecursive">5.
     function fsRmRecursive<span class="apidocSignatureSpan">(path, option_dict)</span>
     </a>
     </h2>
@@ -502,7 +502,7 @@ jstestDescribe((
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.fsWriteFileWithParents" id="apidoc.elem.%22.%2Fjslint.mjs%22.fsWriteFileWithParents">6.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.fsWriteFileWithParents" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.fsWriteFileWithParents">6.
     function fsWriteFileWithParents<span class="apidocSignatureSpan">(pathname, data)</span>
     </a>
     </h2>
@@ -551,7 +551,7 @@ jstestDescribe((
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.htmlEscape" id="apidoc.elem.%22.%2Fjslint.mjs%22.htmlEscape">7.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.htmlEscape" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.htmlEscape">7.
     function htmlEscape<span class="apidocSignatureSpan">(str)</span>
     </a>
     </h2>
@@ -588,7 +588,7 @@ line.forEach(function ({
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint" id="apidoc.elem.%22.%2Fjslint.mjs%22.jslint">8.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint">8.
     function jslint<span class="apidocSignatureSpan">(
     source = "",
     option_dict = empty(),
@@ -666,7 +666,7 @@ causeList.split("\n").forEach(function (cause) {
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_apidoc" id="apidoc.elem.%22.%2Fjslint.mjs%22.jslint_apidoc">9.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_apidoc" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_apidoc">9.
     function jslint_apidoc<span class="apidocSignatureSpan">({
     example_list,
     github_repo,
@@ -773,7 +773,7 @@ case "jslint_plugin_vim":
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_assert" id="apidoc.elem.%22.%2Fjslint.mjs%22.jslint_assert">10.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_assert" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_assert">10.
     function jslint_assert<span class="apidocSignatureSpan">(condition, message)</span>
     </a>
     </h2>
@@ -813,7 +813,7 @@ case "{}":
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_cli" id="apidoc.elem.%22.%2Fjslint.mjs%22.jslint_cli">11.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_cli" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_cli">11.
     function jslint_cli<span class="apidocSignatureSpan">({
     cjs_module,
     cjs_require,
@@ -925,7 +925,7 @@ case "{}":
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase1_split" id="apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase1_split">12.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase1_split" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase1_split">12.
     function jslint_phase1_split<span class="apidocSignatureSpan">()</span>
     </a>
     </h2>
@@ -956,7 +956,7 @@ case "{}":
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase2_lex" id="apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase2_lex">13.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase2_lex" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase2_lex">13.
     function jslint_phase2_lex<span class="apidocSignatureSpan">(state)</span>
     </a>
     </h2>
@@ -1045,7 +1045,7 @@ case "{}":
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase3_parse" id="apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase3_parse">14.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase3_parse" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase3_parse">14.
     function jslint_phase3_parse<span class="apidocSignatureSpan">(state)</span>
     </a>
     </h2>
@@ -1137,7 +1137,7 @@ case "{}":
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase4_walk" id="apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase4_walk">15.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase4_walk" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase4_walk">15.
     function jslint_phase4_walk<span class="apidocSignatureSpan">(state)</span>
     </a>
     </h2>
@@ -1236,7 +1236,7 @@ jslint_assert(
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase5_whitage" id="apidoc.elem.%22.%2Fjslint.mjs%22.jslint_phase5_whitage">16.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase5_whitage" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_phase5_whitage">16.
     function jslint_phase5_whitage<span class="apidocSignatureSpan">(state)</span>
     </a>
     </h2>
@@ -1350,7 +1350,7 @@ jslint_assert(
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_report" id="apidoc.elem.%22.%2Fjslint.mjs%22.jslint_report">17.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_report" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_report">17.
     function jslint_report<span class="apidocSignatureSpan">({
     exports,
     froms,
@@ -1445,7 +1445,7 @@ function detail(title, list) {
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jstestDescribe" id="apidoc.elem.%22.%2Fjslint.mjs%22.jstestDescribe">18.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jstestDescribe" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jstestDescribe">18.
     function jstestDescribe<span class="apidocSignatureSpan">(description, testFunction)</span>
     </a>
     </h2>
@@ -1522,7 +1522,7 @@ function detail(title, list) {
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jstestIt" id="apidoc.elem.%22.%2Fjslint.mjs%22.jstestIt">19.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jstestIt" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jstestIt">19.
     function jstestIt<span class="apidocSignatureSpan">(description, testFunction, mode)</span>
     </a>
     </h2>
@@ -1565,7 +1565,7 @@ function detail(title, list) {
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jstestOnExit" id="apidoc.elem.%22.%2Fjslint.mjs%22.jstestOnExit">20.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jstestOnExit" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jstestOnExit">20.
     function jstestOnExit<span class="apidocSignatureSpan">(exitCode, processExit, countFailed)</span>
     </a>
     </h2>
@@ -1612,7 +1612,7 @@ jstestDescribe((
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.moduleFsInit" id="apidoc.elem.%22.%2Fjslint.mjs%22.moduleFsInit">21.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.moduleFsInit" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.moduleFsInit">21.
     function moduleFsInit<span class="apidocSignatureSpan">()</span>
     </a>
     </h2>
@@ -1674,7 +1674,7 @@ function sentinel() {}
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.noop" id="apidoc.elem.%22.%2Fjslint.mjs%22.noop">22.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.noop" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.noop">22.
     function noop<span class="apidocSignatureSpan">(val)</span>
     </a>
     </h2>
@@ -1705,7 +1705,7 @@ function sentinel() {}
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.v8CoverageListMerge" id="apidoc.elem.%22.%2Fjslint.mjs%22.v8CoverageListMerge">23.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.v8CoverageListMerge" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.v8CoverageListMerge">23.
     function v8CoverageListMerge<span class="apidocSignatureSpan">(processCovs)</span>
     </a>
     </h2>
@@ -1797,7 +1797,7 @@ function sentinel() {}
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.v8CoverageReportCreate" id="apidoc.elem.%22.%2Fjslint.mjs%22.v8CoverageReportCreate">24.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.v8CoverageReportCreate" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.v8CoverageReportCreate">24.
     function v8CoverageReportCreate<span class="apidocSignatureSpan">({
     consoleError,
     coverageDir,
@@ -1934,7 +1934,7 @@ import jslint from "../jslint.mjs";
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_charset_ascii" id="apidoc.elem.%22.%2Fjslint.mjs%22.jslint_charset_ascii">25.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_charset_ascii" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_charset_ascii">25.
     string jslint_charset_ascii
     </a>
     </h2>
@@ -1942,7 +1942,7 @@ import jslint from "../jslint.mjs";
 
 <li>
     <h2>
-    <a href="#apidoc.elem.%22.%2Fjslint.mjs%22.jslint_edition" id="apidoc.elem.%22.%2Fjslint.mjs%22.jslint_edition">26.
+    <a href="#apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_edition" id="apidoc.elem.%22.%2Fv8_coverage_report.mjs%22.jslint_edition">26.
     string jslint_edition
     </a>
     </h2>
