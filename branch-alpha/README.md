@@ -35,14 +35,11 @@
 
 # Quickstart Install
 ### To install, run npm install:
-```shell <!-- shRunWithScreenshotTxt .artifact/screenshot_sh_install_npm.svg -->
+```shell
 #!/bin/sh
 
 npm install v8-coverage-report
 ```
-- shell output
-
-![screenshot.svg](https://kaizhu256.github.io/v8-coverage-report/branch-alpha/.artifact/screenshot_sh_install_npm.svg)
 
 
 # Quickstart V8 Coverage Report

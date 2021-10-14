@@ -19,7 +19,8 @@ printf '> #!/bin/sh
 
 '
 #!/bin/sh
-npm install v8-coverage-report
+mkdir -p node_modules && ln -s . node_modules/v8-coverage-report
+
 
 git clone https://github.com/mapbox/node-sqlite3 node-sqlite3-sh \
     --branch=v5.0.2 \
