@@ -1,5 +1,5 @@
-<svg height="360" width="800" xmlns="http://www.w3.org/2000/svg">
-<rect height="360" fill="#222" width="800"></rect>
+<svg height="250" width="800" xmlns="http://www.w3.org/2000/svg">
+<rect height="250" fill="#222" width="800"></rect>
 <text
     fill="#7f7"
     font-family="consolas, menlo, monospace"
@@ -41,61 +41,31 @@
     textLength="768"
     x="10"
     y="142"
->npm ERR! code ENOSELF                                                                            </tspan>
+>npm WARN undefined@1000.1.1 license should be a valid SPDX license expression                    </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
     y="164"
->npm ERR! Refusing to install package with name "v8-coverage-report" under a package              </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="186"
->npm ERR! also called "v8-coverage-report". Did you name your project the same                    </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="208"
->npm ERR! as the dependency you're installing?                                                    </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="230"
->npm ERR!                                                                                         </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="252"
->npm ERR! For more information, see:                                                              </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="274"
->npm ERR!     &lt;https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm&gt;          </tspan>
-<tspan
-    lengthAdjust="spacingAndGlyphs"
-    textLength="768"
-    x="10"
-    y="296"
 >                                                                                                 </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
-    y="318"
->npm ERR! A complete log of this run can be found in:                                             </tspan>
+    y="186"
+>+ v8-coverage-report@1000.1.1                                                                    </tspan>
 <tspan
     lengthAdjust="spacingAndGlyphs"
     textLength="768"
     x="10"
-    y="340"
->npm ERR!     /home/runner/.npm/_logs/2021-10-14T05_02_39_837Z-debug.log                          </tspan>
+    y="208"
+>added 1 package and audited 1 package in 1.166s                                                  </tspan>
+<tspan
+    lengthAdjust="spacingAndGlyphs"
+    textLength="768"
+    x="10"
+    y="230"
+>found 0 vulnerabilities                                                                          </tspan>
 
 </text>
 </svg>
